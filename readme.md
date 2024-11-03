@@ -140,11 +140,14 @@ python main.py
 
 ```
 connect-four/
-├── main.py              # Punto de entrada y GUI
-├── connect_four.py      # Lógica del juego e IA
-├── requirements.txt     # Dependencias
-├── connect_four.db      # Base de datos SQLite
-└── README.md           # Este archivo
+├── main.py                 # Punto de entrada y GUI
+├── connect_four.py         # Lógica del juego e IA
+├── game_history.json       # Archivo de Log para ajuste de dificultad
+├── connect_four_logic.log  # Archivo de Log
+├── connect_four.log        # Archivo de Log
+├── requirements.txt        # Dependencias
+├── connect_four.db         # Base de datos SQLite
+└── readme.md               # Este archivo
 ```
 
 ## Dependencias principales 📦
@@ -199,7 +202,3 @@ Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más deta
 
 * Inspirado en el clásico juego Connect Four
 * Agradecimientos a la comunidad de Python y Pygame
-* A todos los que han contribuido con sugerencias y mejoras
-
----
-⌨️ con ❤️ por [Tu nombre] 😊

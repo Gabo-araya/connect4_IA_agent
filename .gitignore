@@ -3,7 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
 
 ### Django ###
-*.log
+#*.log
 *.pot
 *.pyc
 __pycache__/
@@ -167,4 +167,3 @@ insumos/
 bkup/
 ignore/
 connect4-env/
-

@@ -1,10 +1,30 @@
-# Connect4
+# Connect Four con IA 🎮
 
-_Proyecto de juego Connect4 con Agente IA usando algoritmos minimax y poda alpha-beta._
+Un juego clásico de Conecta 4 implementado en Python con una IA adaptativa que utiliza el algoritmo Minimax con poda Alfa-Beta. El juego incluye una interfaz gráfica construida con Pygame y almacena estadísticas del juego en una base de datos SQLite.
+
+## Características principales 🌟
+
+- **Interfaz gráfica intuitiva**: Diseñada con Pygame para una experiencia de usuario fluida
+- **IA adaptativa**: Ajusta su dificultad basándose en el rendimiento del jugador
+- **Múltiples niveles de dificultad**:
+  - Fácil
+  - Medio
+  - Difícil
+- **Tamaños de tablero personalizables**:
+  - Normal (6x7)
+  - Pequeño (5x4)
+- **Sistema de sugerencias**: Ayuda para jugadores que necesitan orientación
+- **Estadísticas detalladas**: Seguimiento de:
+  - Tiempo de juego
+  - Movimientos realizados
+  - Nodos explorados por la IA
+  - Sugerencias utilizadas
+- **Persistencia de datos**: Almacenamiento de partidas y estadísticas en SQLite
+
 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-## Pre-requisitos
+## Requisitos previos 📋
 
 _Esta es una lista de los paquetes que deben estar instalados previamente:_
 
@@ -21,7 +41,7 @@ _Esta es una lista de los paquetes que deben estar instalados previamente:_
 	- Creador de entornos virtuales para Python
 	- [Ayuda - https://techexpert.tips/es/windows-es/instalacion-del-entorno-virtual-de-python-en-windows/](https://techexpert.tips/es/windows-es/instalacion-del-entorno-virtual-de-python-en-windows/)
 
-### Instalación pre-requisitos
+### Instalación pre-requisitos 🔧
 
 Muchas veces tenemos ese problema común de no poder instalar ciertas librerías o realizar configuraciones para poder desarrollar en Windows para Web y es por ello que en éste tutorial vamos a ver los pasos para instalar Python y configurarlo con Pip y Virtualenv para así poder empezar a desarrollar aplicaciones basadas en éste lenguaje e instalar Django para crear aplicaciones web. [Ver video -> **https://www.youtube.com/watch?v=sG7Q-r_SZhA**](https://www.youtube.com/watch?v=sG7Q-r_SZhA)
 
@@ -51,54 +71,135 @@ Muchas veces tenemos ese problema común de no poder instalar ciertas librerías
 8. Finalmente desactivamos el entorno virtual
 	- `deactivate`
 
-### Instalación Local
+## Instalación 🔧
 
-Seguir los siguientes pasos para la instalación local.
+### Windows
 
-1. Clonar el repositorio o subir/descargar los archivos.
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/Gabo-araya/connect4_IA_agent.git
+cd connect4_IA_agent
+```
 
-	- `git clone https://github.com/Gabo-araya/Connect4-IA/`
+2. Crear y activar el entorno virtual:
+```bash
+python -m venv connect4-env
+connect4-env\Scripts\activate
+```
 
-2. Instalar los requerimientos.
+3. Instalar dependencias:
+```bash
+pip install -r requirements.txt
+```
 
-	- `python3 -m pip install -r requirements.txt`
+### Linux/macOS
 
-	Alternativamente, instalar
-	- numpy
-	- pygame
-	-
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/Gabo-araya/connect4_IA_agent.git
+cd connect4_IA_agent
+```
 
-3. (CONTINUAR)
+2. Crear y activar el entorno virtual:
+```bash
+python3 -m venv connect4-env
+source connect4-env/bin/activate
+```
 
+3. Instalar dependencias:
+```bash
+pip install -r requirements.txt
+```
 
-## Funcionalidades
+## Ejecución del juego ▶️
 
-1. Navegación por contenidos del sitio
-   - Muestra un resumen del propósito del sitio y sus funcionalidades.
-   - Cuenta con las siguientes páginas: Nosotros, Servicios, Proyectos, Blog, Visión y Footer.
-   - Acceso a lista de artículos desde el footer
+1. Asegúrate de que el entorno virtual está activado
+2. Ejecuta el juego:
+```bash
+python main.py
+```
 
-2. Buscador de artículos
-	- Permite hacer una búsqueda de artículos.
-	- Está presente en la landing page, en la lista de artículos y en cada artículo individual.
+## Cómo jugar 🎲
 
-3. Envío de mensajes
-   - Formulario de contacto desde landing page.
-   - Permite guardar mensajes en base de datos para posterior revisión desde el Panel de Aministración.
+1. Al iniciar el juego, selecciona:
+   - Tamaño del tablero
+   - Nivel de dificultad
+   - Jugador inicial (Humano o IA)
 
-4. Panel de Administración de contenidos
-   - Acceso al Panel desde el footer
-   - Permite realizar CRUD sobre Personas, Servicios, Proyectos, Mensajes, Páginas, Artículos, Categorías, Imágenes.
+2. Durante el juego:
+   - Haz clic en una columna para soltar una ficha
+   - Usa el botón "Sugerir Jugada" si necesitas ayuda
+   - El objetivo es conectar 4 fichas del mismo color
 
-## Herramientas de construcción
+3. El juego termina cuando:
+   - Un jugador conecta 4 fichas
+   - El tablero se llena (empate)
+   - Se agota el tiempo de movimiento
 
-_Estas son las herramientas que hemos utilizado en nuestro proyecto_
+## Estructura del proyecto 📁
 
-* [Django](https://www.djangoproject.com/) - El framework web usado
+```
+connect-four/
+├── main.py              # Punto de entrada y GUI
+├── connect_four.py      # Lógica del juego e IA
+├── requirements.txt     # Dependencias
+├── connect_four.db      # Base de datos SQLite
+└── README.md           # Este archivo
+```
 
+## Dependencias principales 📦
 
-## Autores
+- pygame==2.6.1
+- numpy==1.26.2
+- sqlite3 (incluido en Python)
+
+## Características técnicas 🔧
+
+- Algoritmo Minimax con poda Alfa-Beta para la IA
+- Caché de resultados con decorador @lru_cache
+- Logging comprehensivo para debugging
+- Manejo robusto de errores y excepciones
+- Sistema de dificultad adaptativa
+
+## Contribuir 🤝
+
+1. Haz un Fork del proyecto
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`)
+3. Realiza tus cambios y haz commit (`git commit -am 'Agrega nueva característica'`)
+4. Push a la rama (`git push origin feature/nueva-caracteristica`)
+5. Abre un Pull Request
+
+## Solución de problemas comunes ⚠️
+
+### SQLite errors
+Si encuentras errores relacionados con la base de datos:
+```bash
+touch connect_four.log connect_four_logic.log
+chmod 666 connect_four.log connect_four_logic.log
+```
+
+### Pygame no se instala correctamente
+En Linux, asegúrate de tener las dependencias necesarias:
+```bash
+sudo apt-get install python3-pygame
+```
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles
+
+## Autores ✒️
 
 * **[Gabo Araya](https://github.com/Gabo-araya/)**
 * **[Hedy Herrada](https://github.com/Gabo-araya/)**
-* **[Macarena Riquelme](https://github.com/Gabo-araya/)**
+* **[Macarena Riquelme](https://github.com/mriquelmec/)**
+
+
+## Agradecimientos 🎁
+
+* Inspirado en el clásico juego Connect Four
+* Agradecimientos a la comunidad de Python y Pygame
+* A todos los que han contribuido con sugerencias y mejoras
+
+---
+⌨️ con ❤️ por [Tu nombre] 😊

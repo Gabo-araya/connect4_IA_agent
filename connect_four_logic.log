@@ -1,0 +1,35 @@
+2024-11-02 23:47:57,326 - INFO - Iniciando nuevo juego
+2024-11-02 23:48:00,733 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-02 23:48:00,927 - INFO - Juego iniciado: ID=bf0b0e36-7e61-4a9f-b45c-6d9f1a4651e6, Configuración=6x7, Dificultad=1
+2024-11-02 23:48:48,756 - INFO - Juego terminado. Ganador: IA
+2024-11-02 23:48:48,757 - ERROR - Error en el bucle principal: 'ConnectFourGUI' object has no attribute 'show_final_stats'
+2024-11-02 23:48:48,884 - ERROR - Error al iniciar el juego: Error durante la ejecución del juego
+2024-11-02 23:49:48,603 - INFO - Iniciando nuevo juego
+2024-11-02 23:49:51,111 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-02 23:49:51,133 - INFO - Juego iniciado: ID=7c9a73f8-afe8-47aa-ac1e-5c85a350620b, Configuración=6x7, Dificultad=1
+2024-11-02 23:50:03,575 - INFO - Juego terminado. Ganador: IA
+2024-11-02 23:50:03,576 - ERROR - Error en el bucle principal: 'ConnectFourGUI' object has no attribute 'show_final_stats'
+2024-11-02 23:50:03,667 - ERROR - Error al iniciar el juego: Error durante la ejecución del juego
+2024-11-02 23:52:15,178 - INFO - Iniciando nuevo juego
+2024-11-02 23:52:23,872 - ERROR - Error de validación: Demasiados intentos fallidos. Reinicie el juego.
+2024-11-02 23:52:29,657 - INFO - Iniciando nuevo juego
+2024-11-02 23:52:45,037 - ERROR - Error de validación: Demasiados intentos fallidos. Reinicie el juego.
+2024-11-02 23:52:46,932 - INFO - Iniciando nuevo juego
+2024-11-02 23:52:59,879 - ERROR - Error de validación: Demasiados intentos fallidos. Reinicie el juego.
+2024-11-02 23:56:57,458 - INFO - Iniciando nuevo juego
+2024-11-02 23:57:00,962 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-02 23:57:00,966 - INFO - Juego iniciado: ID=d3a37a25-fa8c-4437-862d-92dc5077fece, Configuración=6x7, Dificultad=1
+2024-11-02 23:57:10,645 - INFO - Juego terminado. Ganador: IA
+2024-11-02 23:57:18,763 - INFO - Iniciando nuevo juego
+2024-11-02 23:57:24,372 - INFO - Iniciando juego con configuración: 6x7, dificultad=2
+2024-11-02 23:57:24,383 - INFO - Juego iniciado: ID=68c58554-10e6-4e53-b91f-178c3153cec0, Configuración=6x7, Dificultad=2
+2024-11-02 23:57:53,539 - INFO - Juego terminado. Ganador: IA
+2024-11-02 23:57:53,539 - INFO - Dificultad reducida a 1
+2024-11-03 00:14:49,702 - INFO - Iniciando nuevo juego
+2024-11-03 00:14:57,598 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-03 00:14:57,604 - INFO - Juego iniciado: ID=d4ca8c19-5ce3-4e00-85e4-43ef26caa096, Configuración=6x7, Dificultad=1
+2024-11-03 00:15:17,486 - INFO - Juego terminado. Ganador: IA
+2024-11-03 00:32:36,775 - INFO - Iniciando nuevo juego
+2024-11-03 00:32:48,345 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-03 00:32:48,356 - INFO - Juego iniciado: ID=7537308a-03dd-4009-92e5-823fcea29197, Configuración=6x7, Dificultad=1
+2024-11-03 00:32:54,496 - INFO - Juego terminado. Ganador: IA

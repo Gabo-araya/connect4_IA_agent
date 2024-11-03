@@ -187,9 +187,6 @@ En Linux, asegúrate de tener las dependencias necesarias:
 sudo apt-get install python3-pygame
 ```
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles
 
 ## Autores ✒️
 

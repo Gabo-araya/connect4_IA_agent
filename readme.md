@@ -191,7 +191,7 @@ sudo apt-get install python3-pygame
 ## Autores ✒️
 
 * **[Gabo Araya](https://github.com/Gabo-araya/)**
-* **[Hedy Herrada](https://github.com/Gabo-araya/)**
+* **[Hedy Herrada](https://github.com/HedyAnn/)**
 * **[Macarena Riquelme](https://github.com/mriquelmec/)**
 
 

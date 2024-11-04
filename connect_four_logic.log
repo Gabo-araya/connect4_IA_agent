@@ -33,3 +33,37 @@
 2024-11-03 00:32:48,345 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
 2024-11-03 00:32:48,356 - INFO - Juego iniciado: ID=7537308a-03dd-4009-92e5-823fcea29197, Configuración=6x7, Dificultad=1
 2024-11-03 00:32:54,496 - INFO - Juego terminado. Ganador: IA
+2024-11-03 00:51:49,586 - INFO - Iniciando nuevo juego
+2024-11-03 00:51:56,258 - INFO - Iniciando juego con configuración: 6x7, dificultad=3
+2024-11-03 00:51:56,263 - INFO - Juego iniciado: ID=9a5e2fe4-533f-4ae4-8eec-2238e42c0341, Configuración=6x7, Dificultad=3
+2024-11-03 00:55:37,090 - ERROR - Error al generar sugerencia: No se pudo generar una sugerencia válida
+2024-11-03 00:55:39,893 - ERROR - Error al generar sugerencia: No se pudo generar una sugerencia válida
+2024-11-03 00:55:44,577 - ERROR - Error al generar sugerencia: No se pudo generar una sugerencia válida
+2024-11-03 00:55:57,628 - INFO - Juego terminado. Ganador: IA
+2024-11-03 00:55:57,628 - INFO - Dificultad reducida a 2
+2024-11-03 02:23:57,286 - INFO - Iniciando nuevo juego
+2024-11-03 02:24:00,457 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-03 02:24:00,469 - INFO - Juego iniciado: ID=a256e5ba-cf0b-4e01-86fa-42511fd5250e, Configuración=6x7, Dificultad=1
+2024-11-03 02:24:23,972 - INFO - Juego terminado. Ganador: IA
+2024-11-03 02:24:52,469 - INFO - Iniciando nuevo juego
+2024-11-03 02:24:54,556 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-03 02:24:54,562 - INFO - Juego iniciado: ID=788010fc-36e3-4529-a612-d9d0dd941e54, Configuración=6x7, Dificultad=1
+2024-11-03 02:25:33,929 - INFO - Juego terminado. Ganador: IA
+2024-11-03 02:25:46,702 - INFO - Iniciando nuevo juego
+2024-11-03 02:25:49,668 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-03 02:25:49,682 - INFO - Juego iniciado: ID=60d5def0-5333-4d72-af88-d8accc4f08bd, Configuración=6x7, Dificultad=1
+2024-11-03 02:26:44,470 - WARNING - Tiempo de movimiento excedido
+2024-11-03 02:26:44,471 - INFO - Juego terminado. Ganador: IA (por tiempo)
+2024-11-03 02:28:01,706 - INFO - Iniciando nuevo juego
+2024-11-03 02:28:03,994 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-03 02:28:04,010 - INFO - Juego iniciado: ID=7257aa9e-fa5e-481e-9df4-c8eeb6c69f7d, Configuración=6x7, Dificultad=1
+2024-11-03 02:28:45,083 - INFO - Juego terminado. Ganador: IA
+2024-11-03 02:28:51,050 - INFO - Iniciando nuevo juego
+2024-11-03 02:28:53,187 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-03 02:28:53,193 - INFO - Juego iniciado: ID=b27fa34c-8a03-466b-b098-af9241011487, Configuración=6x7, Dificultad=1
+2024-11-03 02:29:02,045 - INFO - Juego terminado. Ganador: Jugador
+2024-11-03 02:29:07,293 - INFO - Iniciando nuevo juego
+2024-11-03 02:29:09,922 - INFO - Iniciando juego con configuración: 6x7, dificultad=1
+2024-11-03 02:29:09,928 - INFO - Juego iniciado: ID=a445d976-5a44-465e-8f72-12d4afc51fb9, Configuración=6x7, Dificultad=1
+2024-11-03 02:30:04,754 - WARNING - Tiempo de movimiento excedido
+2024-11-03 02:30:04,760 - INFO - Juego terminado. Ganador: IA (por tiempo)
